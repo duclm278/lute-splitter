@@ -24,7 +24,7 @@ def main():
                     if form == term:
                         writer.writerow(["English", term, "", "", tags])
                     else:
-                        writer.writerow(["English", form, term, "", tags])
+                        writer.writerow(["English", form, "", term, tags])
             else:
                 writer.writerow(["English", term, "", "", tags])
 
